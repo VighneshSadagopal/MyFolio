@@ -1,0 +1,12 @@
+.portname{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+.portfolio-image {
+    background: linear-gradient(rgb(53, 62, 94),#576fa3);
+    z-index: 1;
+    padding: 13px;
+    overflow-y: clip;
+    border-radius: 14rem;
+}

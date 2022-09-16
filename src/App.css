@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+  background: linear-gradient(#000,#7597de);
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+ 
+}
+body{
+  overflow-x: hidden;
+}
+
+.second-container{
+  padding: 0rem 11rem;
+}

@@ -1,0 +1,41 @@
+.navbar {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  padding: 1rem 11rem;
+  z-index: 2;
+}
+.navbar nav ul {
+  display: flex;
+  transition: ease-out 0.75s;
+  margin-left: 20rem;
+}
+.navbar .logo {
+  display: none;
+}
+.navbar nav ul li {
+  list-style: none;
+
+  margin-right: 7rem;
+}
+.navbar nav ul li a {
+  color: white;
+  font-size: 19.2px;
+  text-decoration: none;
+}
+.sticky {
+  background: #32456e;
+  transition: ease-in-out 0.75s;
+}
+.sticky .logo {
+  display: block;
+  transition: ease-in 0.75s;
+}
+
+.sticky nav ul {
+  display: flex;
+  margin-left: 40rem;
+}
+.sticky nav ul li {
+  margin-right: 1rem;
+}

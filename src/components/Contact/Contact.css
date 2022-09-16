@@ -1,0 +1,83 @@
+.contact {
+  padding: 9rem 0rem;
+  display: flex;
+  justify-content: space-around;
+  background-color: #304874c4;
+}
+form.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+}
+.contact-form label {
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  text-align: left;
+  color: white;
+}
+.contact-form input{
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 1rem;
+    background: #304874c4;
+    border: none;
+    color: white;
+    outline: none;
+    border-radius: 5px;
+}
+.contact-form textarea{
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 1rem;
+    height: 7rem;
+    background: #304874c4;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+textarea:focus, input:focus {
+    color: #fff;
+}
+button.contact-submit {
+    padding: 9px 13px;
+    width: 25%;
+    border-radius: 6px;
+    background: #819ed1;
+    color: white;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+.links{
+    text-align: left;
+    display: flex;
+}
+.links.stick{
+    position: fixed;
+    flex-direction: column;
+    bottom: 12%;
+    right: 0;
+}
+.links a{
+    color: white; 
+    padding: 7px 13px;
+}
+.contact-details{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.mail {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.location {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.location svg{
+    color: red;
+}

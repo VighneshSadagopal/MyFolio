@@ -1,0 +1,39 @@
+.name-container{
+    width: fit-content;
+    /* margin-left: 11%; */
+    margin-top: 14%;
+}
+.name-container p{
+    font-size: 3rem;
+    color: white;
+    font-family: system-ui;
+    text-align: left;
+    margin-bottom: 10px;
+}
+h2.name{
+    font-size: 4rem;
+    font-family: system-ui;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    background: url('images/back.png');
+    -webkit-background-clip: text;
+    animation: back 20s linear infinite ;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+@keyframes back {
+    100%{
+        background-position: 2000px 0;
+    }
+}
+.name-container button{
+    padding: 9px 16px;
+    margin-right: 31rem;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    color: #fff;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+
+}
