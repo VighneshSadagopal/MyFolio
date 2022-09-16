@@ -12,6 +12,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 function App() {
   return (
     <>
+    
       <div className="App">
        <Navbar />
         <Banner />
