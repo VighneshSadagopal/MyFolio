@@ -2,7 +2,6 @@ import "./App.css";
 import About from "./components/About/About";
 import Banner from "./components/Banner/Banner";
 import Navbar from "./components/Header/Navbar";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Project from "./components/Projects/Project";
 import Skill from "./components/Skills/Skill";
 import Contact from "./components/Contact/Contact";
@@ -14,16 +13,7 @@ function App() {
   return (
     <>
       <div className="App">
-        <Router>
-          <Routes>
-            <Route path="/" element={<Navbar />}>
-              <Route path="/"  />
-              <Route path="#about" element={<About />} />
-              <Route path="#projects"  />
-              <Route path="#contact"  />
-            </Route>
-          </Routes>
-        </Router>
+       <Navbar />
         <Banner />
         <div className="second-container">
           <About aboutme = {

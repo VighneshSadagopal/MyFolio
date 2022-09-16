@@ -2,7 +2,6 @@ import React from 'react'
 import './Navbar.css'
 import logo from './images/name.png'
 import { useEffect } from 'react';
-import { Outlet} from 'react-router-dom';
 
 export default function Navbar() {
     
@@ -29,7 +28,6 @@ export default function Navbar() {
                 <li><a href="#contact">CONTACT</a></li>
             </ul>
         </nav>
-        <Outlet />
     </div>
     </>
   )
