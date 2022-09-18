@@ -1,7 +1,7 @@
 .portname{
     display: flex;
     align-items: flex-end;
-    justify-content: space-around;
+    justify-content: center;
 }
 .portfolio-image {
     background: linear-gradient(rgb(53, 62, 94),#576fa3);
@@ -9,4 +9,8 @@
     padding: 13px;
     overflow-y: clip;
     border-radius: 14rem;
+    margin-left: 3rem;
+}
+.portfolio-image img{
+    height: 20rem;
 }

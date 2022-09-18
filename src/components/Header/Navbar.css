@@ -1,9 +1,11 @@
 .navbar {
   display: flex;
   position: fixed;
-  width: 100%;
-  padding: 1rem 11rem;
+  width: 83%;
+  padding: 0.5rem 1.5rem;
   z-index: 2;
+  justify-content: center;
+  align-items: center;
 }
 .navbar nav ul {
   display: flex;
@@ -20,12 +22,13 @@
 }
 .navbar nav ul li a {
   color: white;
-  font-size: 19.2px;
+  font-size: 14.2px;
   text-decoration: none;
 }
 .sticky {
   background: #32456e;
   transition: ease-in-out 0.75s;
+  width: 100%;
 }
 .sticky .logo {
   display: block;
@@ -34,8 +37,12 @@
 
 .sticky nav ul {
   display: flex;
-  margin-left: 40rem;
+  margin-left: 38rem;
 }
 .sticky nav ul li {
   margin-right: 1rem;
+}
+
+.sticky img#logo{
+  height: 2rem;
 }

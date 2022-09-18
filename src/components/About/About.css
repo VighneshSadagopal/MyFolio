@@ -2,18 +2,18 @@
     display: block;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 11rem 0rem;
+    padding: 9rem 0rem;
     transition: ease-in-out 0.75s;
 }
 .about h2{
-    font-size: 2rem;
+    font-size: 1.6rem;
     color: white;
     padding-bottom: 3px;
     border-bottom: 1px solid white;
     width: fit-content;
 }
 .about p{
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     color: white;
 
 }

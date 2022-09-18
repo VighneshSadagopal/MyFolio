@@ -8,6 +8,7 @@ import Contact from "./components/Contact/Contact";
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import Copyright from "./components/Copyright/Copyright";
 
 function App() {
   return (
@@ -39,14 +40,16 @@ function App() {
           
         </div>
         <Contact locationname = {'Pune,India'} mailid={'vighneshp65@gmail.com'}
-          linkicon1 = {<TwitterIcon fontSize="large"/>} 
+          linkicon1 = {<TwitterIcon fontSize="medium"/>} 
           linkname1 = {'https://twitter.com/_vighnesh_vs'}
-          linkicon2 = {<InstagramIcon fontSize="large" />}
+          linkicon2 = {<InstagramIcon fontSize="medium" />}
           linkname2 = {'https://www.instagram.com/vighnesh__.p/'}
-          linkicon3 = {<LinkedInIcon fontSize="large" />}
+          linkicon3 = {<LinkedInIcon fontSize="medium" />}
           linkname3 = {'https://www.linkedin.com/in/vighnesh-sadagopal-9b72721b5/'}
           />
+<Copyright />
       </div>
+      
     </>
   );
 }

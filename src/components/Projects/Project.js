@@ -3,6 +3,7 @@ import ProjectCard from './ProjectCard/ProjectCard'
 import instagram from './images/instagram.png'
 import './Project.css'
 import ProjectCard2 from './ProjectCard/ProjectCard2'
+import vslogo from './images/vslogo.png'
 
 export default function Project() {
   return (
@@ -21,7 +22,7 @@ export default function Project() {
         gitlink = {'https://github.com/guptahemant/insta-clone'}
         duration = {'Dec 2021 - Mar 2022 (4 Months)'}
         />
-        <ProjectCard2 icon={instagram} head = {'Instagram Clone'}
+        <ProjectCard2 icon={vslogo} head = {'VS Blog PHP Site'}
         summary = {
             <>
             <p>Created a full fledged Instagram site with the help of Drupal CMS in my Internship</p>
@@ -31,8 +32,8 @@ export default function Project() {
             <p>My skills like leading the team and helping through the front was highly praised by my peers and mentors.</p>
             </>
         }
-        gitlink = {'https://github.com/guptahemant/insta-clone'}
-        duration = {'Dec 2021 - Mar 2022 (4 Months)'}
+        gitlink = {'https://github.com/VighneshSadagopal/BLOG_PHP'}
+        duration = {'Aug 2021 - Dec 2022 (4 Months)'}
         />
          <ProjectCard icon={instagram} head = {'Instagram Clone'}
         summary = {

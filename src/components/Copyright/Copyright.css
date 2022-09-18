@@ -1,0 +1,13 @@
+.copyright{
+    background: #132637c4;
+    padding: 0.8rem 0rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright h3{
+    font-size: 0.8rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 5px;
+}
